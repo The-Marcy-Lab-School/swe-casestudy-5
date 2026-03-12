@@ -231,8 +231,7 @@ These follow REST conventions: resources are identified by URL (`/api/bookmarks`
 
 ## Concepts Checklist
 
-By the end of this walkthrough, you have demonstrated:
-
+**Backend/Server Application**
 - [ ] `express()` to create an Express application
 - [ ] `app.listen()` to start the server on a port
 - [ ] `express.static()` to serve a frontend from the same server
@@ -245,6 +244,8 @@ By the end of this walkthrough, you have demonstrated:
 - [ ] MVC architecture: Model, View (frontend), Controller layers
 - [ ] In-memory data store with named exports using `module.exports.methodName`
 - [ ] `Array.find()`, `Array.findIndex()`, and `Array.splice()` for data operations
+
+**Frontend/Client Application:**
 - [ ] `async`/`await` with `try`/`catch` in fetch helpers
 - [ ] Relative URL fetch targeting a same-origin API
 - [ ] `POST` fetch with `Content-Type` header and `JSON.stringify` body
