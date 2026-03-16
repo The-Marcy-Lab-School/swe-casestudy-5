@@ -132,6 +132,14 @@ curl -X DELETE http://localhost:8080/api/bookmarks/1
 curl http://localhost:8080/api/bookmarks #check to verify that the bookmark was deleted
 ```
 
+The file `test-requests.sh` has been created for you with these `curl` requests and some commands for formatting the output. It can be executed from the root of the repository with the command:
+
+```sh
+sh test-requests.sh
+```
+
+Files like these prevent you from needing to type out the entire command directly in the terminal!`
+
 <details>
 
 <summary><strong>Answers</strong></summary>
